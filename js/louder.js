@@ -8,13 +8,13 @@ firebase.auth().onAuthStateChanged((user) => {
       } else {
         // email verification
         setTimeout(() => {
-          window.location.assign("./pages/login.html");
+          window.location.assign("./pages/Login.html");
         }, 1000);
       }
     } else {
       // login
       setTimeout(() => {
-        window.location.assign("./pages/login.html");
+        window.location.assign("./pages/Login.html");
       }, 1000);
     }
   });
